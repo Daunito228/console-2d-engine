@@ -1,3 +1,4 @@
+#pragma once
 #include "Entity.hpp"
 //наследуется от Entity
 class Player:public Entity

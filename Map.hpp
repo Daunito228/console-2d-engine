@@ -1,6 +1,15 @@
 #pragma once
 #include "coordinates.hpp"
+#include <iostream>
 #include <string>
+enum Tile{
+    WALL = '#',
+    PLAYER = 'P',
+    ENEMY = 'E',
+    EMPTY = '.',
+    EXIT = 'X'
+};
+
 class Map
 {
 private:

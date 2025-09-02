@@ -1,3 +1,4 @@
+#pragma once
 #include "Player.hpp"
 #include "Enemy.hpp"
 #include "Map.hpp"
